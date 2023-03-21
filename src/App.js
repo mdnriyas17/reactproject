@@ -5,7 +5,7 @@ import Pricing from "./pages/Pricing";
 import Cart from "./pages/Cart";
 
 function App() {
-  const [page, setPage] = useState("cart");
+  const [page] = useState("cart");
   return (
     <div className="App">
       <section className="pricing py-5">
